@@ -1,0 +1,22 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/kim/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/kim/esp/esp32_cam_capture_http/camera_example/build/bootloader",
+    "config_file":        "/home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/kim/esp/esp-idf/components/efuse/Kconfig;/home/kim/esp/esp-idf/components/esp_common/Kconfig;/home/kim/esp/esp-idf/components/esp_hw_support/Kconfig;/home/kim/esp/esp-idf/components/esp_system/Kconfig;/home/kim/esp/esp-idf/components/freertos/Kconfig;/home/kim/esp/esp-idf/components/hal/Kconfig;/home/kim/esp/esp-idf/components/log/Kconfig;/home/kim/esp/esp-idf/components/newlib/Kconfig;/home/kim/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/kim/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/kim/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/kim/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/kim/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/kim/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/kim/esp/esp-idf/components/bootloader", "/home/kim/esp/esp-idf/components/bootloader_support", "/home/kim/esp/esp-idf/components/efuse", "/home/kim/esp/esp-idf/components/esp_app_format", "/home/kim/esp/esp-idf/components/esp_common", "/home/kim/esp/esp-idf/components/esp_hw_support", "/home/kim/esp/esp-idf/components/esp_rom", "/home/kim/esp/esp-idf/components/esp_system", "/home/kim/esp/esp-idf/components/esptool_py", "/home/kim/esp/esp-idf/components/freertos", "/home/kim/esp/esp-idf/components/hal", "/home/kim/esp/esp-idf/components/log", "/home/kim/esp/esp-idf/components/bootloader/subproject/main", "/home/kim/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/kim/esp/esp-idf/components/newlib", "/home/kim/esp/esp-idf/components/partition_table", "/home/kim/esp/esp-idf/components/soc", "/home/kim/esp/esp-idf/components/spi_flash", "/home/kim/esp/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
