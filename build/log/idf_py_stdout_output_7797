@@ -1,0 +1,54 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+Processing 2 dependencies:
+[1/2] espressif/esp32-camera (2.0.10)
+[2/2] idf (5.0.0)
+-- Project sdkconfig file /home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig
+Loading defaults file /home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig.defaults...
+/home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig.defaults:1 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig.defaults:12 CONFIG_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+/home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig.defaults:13 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+-- App "camera_example" version: d77a74c-dirty
+-- Adding linker script /home/kim/esp/esp32_cam_capture_http/camera_example/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx driver efuse esp_app_format esp_common esp_event esp_http_server esp_hw_support esp_netif esp_partition esp_phy esp_pm esp_ringbuf esp_rom esp_system esp_timer esp_wifi espressif__esp32-camera esptool_py freertos hal heap http_parser log lwip main mbedtls newlib nvs_flash partition_table pthread soc spi_flash vfs wpa_supplicant xtensa
+-- Component paths: /home/kim/esp/esp-idf/components/app_update /home/kim/esp/esp-idf/components/bootloader /home/kim/esp/esp-idf/components/bootloader_support /home/kim/esp/esp-idf/components/cxx /home/kim/esp/esp-idf/components/driver /home/kim/esp/esp-idf/components/efuse /home/kim/esp/esp-idf/components/esp_app_format /home/kim/esp/esp-idf/components/esp_common /home/kim/esp/esp-idf/components/esp_event /home/kim/esp/esp-idf/components/esp_http_server /home/kim/esp/esp-idf/components/esp_hw_support /home/kim/esp/esp-idf/components/esp_netif /home/kim/esp/esp-idf/components/esp_partition /home/kim/esp/esp-idf/components/esp_phy /home/kim/esp/esp-idf/components/esp_pm /home/kim/esp/esp-idf/components/esp_ringbuf /home/kim/esp/esp-idf/components/esp_rom /home/kim/esp/esp-idf/components/esp_system /home/kim/esp/esp-idf/components/esp_timer /home/kim/esp/esp-idf/components/esp_wifi /home/kim/esp/esp32_cam_capture_http/camera_example/managed_components/espressif__esp32-camera /home/kim/esp/esp-idf/components/esptool_py /home/kim/esp/esp-idf/components/freertos /home/kim/esp/esp-idf/components/hal /home/kim/esp/esp-idf/components/heap /home/kim/esp/esp-idf/components/http_parser /home/kim/esp/esp-idf/components/log /home/kim/esp/esp-idf/components/lwip /home/kim/esp/esp32_cam_capture_http/camera_example/main /home/kim/esp/esp-idf/components/mbedtls /home/kim/esp/esp-idf/components/newlib /home/kim/esp/esp-idf/components/nvs_flash /home/kim/esp/esp-idf/components/partition_table /home/kim/esp/esp-idf/components/pthread /home/kim/esp/esp-idf/components/soc /home/kim/esp/esp-idf/components/spi_flash /home/kim/esp/esp-idf/components/vfs /home/kim/esp/esp-idf/components/wpa_supplicant /home/kim/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kim/esp/esp32_cam_capture_http/camera_example/build
+[1/7] Generating ld/sections.ld
+[2/7] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/kim/esp/esp32_cam_capture_http/camera_example/sdkconfig
+-- Adding linker script /home/kim/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.0-dirty
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/kim/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/kim/esp/esp-idf/components/bootloader /home/kim/esp/esp-idf/components/bootloader_support /home/kim/esp/esp-idf/components/efuse /home/kim/esp/esp-idf/components/esp_app_format /home/kim/esp/esp-idf/components/esp_common /home/kim/esp/esp-idf/components/esp_hw_support /home/kim/esp/esp-idf/components/esp_rom /home/kim/esp/esp-idf/components/esp_system /home/kim/esp/esp-idf/components/esptool_py /home/kim/esp/esp-idf/components/freertos /home/kim/esp/esp-idf/components/hal /home/kim/esp/esp-idf/components/log /home/kim/esp/esp-idf/components/bootloader/subproject/main /home/kim/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/kim/esp/esp-idf/components/newlib /home/kim/esp/esp-idf/components/partition_table /home/kim/esp/esp-idf/components/soc /home/kim/esp/esp-idf/components/spi_flash /home/kim/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kim/esp/esp32_cam_capture_http/camera_example/build/bootloader
+[1/1] cd /home/kim/esp/esp32_cam_capture_http/camera_example/build/bootloader/esp-idf/esptool_py && /home/kim/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/kim/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x10000 bootloader 0x1000 /home/kim/esp/esp32_cam_capture_http/camera_example/build/bootloader/bootloader.bin
+Bootloader binary size 0x6de0 bytes. 0x8220 bytes (54%) free.
+[3/5] Linking CXX executable camera_example.elf
+[4/5] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/kim/esp/esp32_cam_capture_http/camera_example/build/camera_example.bin
+[5/5] cd /home/kim/esp/esp32_cam_capture_http/camera_example/build/esp-idf/esptool_py && /home/kim/.espressif/python_env/idf5.0_py3.10_env/bin/python /home/kim/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x10000 partition --type app /home/kim/esp/esp32_cam_capture_http/camera_example/build/partition_table/partition-table.bin /home/kim/esp/esp32_cam_capture_http/camera_example/build/camera_example.bin
+camera_example.bin binary size 0xbb770 bytes. Smallest app partition is 0x100000 bytes. 0x44890 bytes (27%) free.
