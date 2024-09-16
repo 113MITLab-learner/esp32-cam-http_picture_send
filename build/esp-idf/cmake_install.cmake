@@ -224,6 +224,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/kim/esp/esp32_cam_capture_http/camera_example/build/esp-idf/esp_psram/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/kim/esp/esp32_cam_capture_http/camera_example/build/esp-idf/espressif__esp32-camera/cmake_install.cmake")
 endif()
 
