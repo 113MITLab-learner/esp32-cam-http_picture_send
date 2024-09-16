@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32-CAM 即時影像</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #camera-image {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ESP32-CAM 即時影像</h1>
+    <img id="camera-image" src="" alt="正在載入影像...">
+
+    <script>
+        function updateImage() {
+            // 設定 ESP32-CAM 的 IP 位址，這裡應替換成你的 ESP32-CAM IP
+            const esp32CamUrl = "http://172.20.10.3/capture";
+
+            // 獲取影像並顯示在 img 元素上
+            document.getElementById('camera-image').src = esp32CamUrl + "?t=" + new Date().getTime();
+        }
+
+        // 每秒自動更新影像
+        setInterval(updateImage, 1000);
+    </script>
+</body>
+</html>
